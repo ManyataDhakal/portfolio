@@ -10,7 +10,7 @@ class SiteHeader extends HTMLElement {
             <a href="index.html">Manyata Dhakal</a>
           </div>
 
-          <nav>
+          <nav class="site-nav">
             <ul class="flex gap-6">
               <li><a href="index.html" class="${page === 'index.html' ? 'active' : ''}">Home</a></li>
               <li><a href="resume.html" class="${page === 'resume.html' ? 'active' : ''}">Skills</a></li>
