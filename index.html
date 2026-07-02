@@ -3,156 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Manyata Dhakal | CS Student & Aspiring Software Developer</title>
-  
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Personal portfolio of Manyata Dhakal, a Computer Science student and aspiring software developer. Showcasing skills in Java, Python, SQL, web technologies, and software development projects.">
-  <meta name="keywords" content="Manyata Dhakal, Portfolio, Computer Science, Software Developer, Java, Python, Web Development, BIT Student">
-  <meta name="author" content="Manyata Dhakal">
-  
-  <!-- Stylesheets -->
+  <title>Manyata Dhakal | Aspiring Software Developer</title>
+  <meta name="description" content="Portfolio of Manyata Dhakal, an aspiring software developer interested in Java, Python, web development, and databases.">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-  <!-- ==========================================
-       HEADER & NAVIGATION
-       ========================================== -->
-  <header class="header-nav" id="homeNavbar">
+<body>
+  <header class="header-nav">
     <div class="container nav-container">
-      <a href="#hero" class="logo" id="logoLink">
-        Manyata Dhakal<span></span>
-      </a>
-      
-      <!-- Mobile Menu Toggle -->
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
+      <a href="#hero" class="logo">Manyata Dhakal</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
       </button>
-      
-      <!-- Navbar Links -->
-      <nav aria-label="Main Navigation">
+
+      <nav>
         <ul class="nav-links" id="navLinks">
-          <li><a href="#hero" class="active" id="navHero">Home</a></li>
-          <li><a href="#about" id="navAbout">About</a></li>
-          <li><a href="#skills" id="navSkills">Skills</a></li>
-          <li><a href="#projects" id="navProjects">Projects</a></li>
-          <li><a href="#education" id="navEducation">Education</a></li>
-          <li><a href="#contact" id="navContact">Contact</a></li>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- ==========================================
-       MAIN CONTENT
-       ========================================== -->
   <main>
-    
-    <!-- 1. HERO SECTION -->
     <section class="hero-section" id="hero">
       <div class="container hero-grid">
-        <!-- Text Content -->
         <div class="hero-content">
-          <div class="hero-tagline">Welcome to my Space</div>
+          <div class="hero-tagline">Hello, I'm</div>
           <h1 class="hero-name">Manyata Dhakal</h1>
-          <div class="hero-title" aria-live="polite">
-            I am a <span id="typingText" class="text-gradient"></span><span class="typing-cursor">|</span>
+
+          <div class="hero-title">
+            I am an <span id="typingText" class="text-gradient"></span><span class="typing-cursor">|</span>
           </div>
+
           <p class="hero-desc">
-            I am a Computer Science student passionate about software development and web technologies. I enjoy building practical projects, learning new technologies, and continuously improving my programming skills.
+            Aspiring Software Developer passionate about learning new technologies and building practical projects.
           </p>
+
           <div class="hero-buttons">
-            <a href="#projects" class="btn btn-primary" id="heroBtnProjects">View Projects</a>
-            <a href="#contact" class="btn btn-outline" id="heroBtnContact">Contact Me</a>
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
           </div>
         </div>
-        
-        <!-- Graphic Content -->
+
         <div class="hero-graphic">
-          <div class="hero-badge">
-            <div class="hero-badge-bg"></div>
-            <!-- Dynamic tech sphere symbol inside the badge -->
-            <div class="hero-badge-icon" aria-hidden="true">💻</div>
-          </div>
-          <!-- Floating UI Badges -->
-          <div class="float-card float-card-1">
-            <span class="float-icon">☕</span>
-            <div>
-              <div class="float-text">Java</div>
-            </div>
-          </div>
-          <div class="float-card float-card-2">
-            <span class="float-icon">🐍</span>
-            <div>
-              <div class="float-text">Python</div>
-            </div>
+          <div class="hero-image">
+            <img src="images/profile.jpeg" alt="Manyata Dhakal">
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 2. ABOUT ME SECTION -->
     <section class="section" id="about">
       <div class="container">
-        <div class="section-header reveal">
+        <div class="section-header">
           <h2 class="section-title">About <span class="text-gradient">Me</span></h2>
-          <p class="section-subtitle">A brief introduction to my background, aspirations, and interests</p>
+          <p class="section-subtitle">A short introduction about my learning journey and interests</p>
         </div>
-        
+
         <div class="about-grid">
-          <!-- Facts Side -->
-          <div class="about-graphic reveal">
-            <div class="about-card">
-              <div class="about-fact">
-                <div class="about-fact-item">
-                  <div class="about-fact-icon">🎓</div>
-                  <div>
-                    <h3 class="about-fact-title">Current Study</h3>
-                    <p class="about-fact-desc">Information Technology (BIT) Undergraduate</p>
-                  </div>
-                </div>
-                <div class="about-fact-item">
-                  <div class="about-fact-icon">💡</div>
-                  <div>
-                    <h3 class="about-fact-title">Focus Areas</h3>
-                    <p class="about-fact-desc">Software Development, Full-Stack Web Technologies, Database Systems</p>
-                  </div>
-                </div>
-                <div class="about-fact-item">
-                  <div class="about-fact-icon">🌱</div>
-                  <div>
-                    <h3 class="about-fact-title">Learning Attitude</h3>
-                    <p class="about-fact-desc">Enthusiastic about hands-on labs, problem solving, and modern frameworks</p>
-                  </div>
-                </div>
+          <div class="about-card">
+            <div class="about-fact-item">
+              <div class="about-fact-icon">🎓</div>
+              <div>
+                <h3 class="about-fact-title">Current Study</h3>
+                <p class="about-fact-desc">BIT Undergraduate</p>
+              </div>
+            </div>
+
+            <div class="about-fact-item">
+              <div class="about-fact-icon">💡</div>
+              <div>
+                <h3 class="about-fact-title">Focus Areas</h3>
+                <p class="about-fact-desc">Java, Python, Web Development, Database</p>
+              </div>
+            </div>
+
+            <div class="about-fact-item">
+              <div class="about-fact-icon">🌱</div>
+              <div>
+                <h3 class="about-fact-title">Learning Goal</h3>
+                <p class="about-fact-desc">Building projects and improving my programming skills</p>
               </div>
             </div>
           </div>
-          
-          <!-- Narrative Side -->
-          <div class="about-info reveal">
+
+          <div class="about-info">
             <p class="about-text">
-              I am a Computer Science student with a strong interest in software development and problem-solving. I enjoy building web applications, exploring new technologies, and applying my knowledge through academic and personal projects.
+              I am a BIT student with a strong interest in software development and problem-solving.
+              I enjoy creating practical projects and applying what I learn through hands-on practice.
             </p>
-            <p class="about-text" style="margin-bottom: 0;">
-              My educational journey focus is on understanding computing principles, structural database systems, and object-oriented architectures. I am actively looking for developer internship roles where I can contribute to exciting projects and grow alongside experienced engineering teams.
+
+            <p class="about-text">
+              I am currently looking for internship opportunities where I can learn from real-world experience,
+              improve my technical skills, and contribute to meaningful projects.
             </p>
-            
-            <!-- Statistics Counters -->
+
             <div class="about-stats">
               <div class="stat-item">
-                <div class="stat-num">12+</div>
-                <div class="stat-label">Skills Acquired</div>
+                <div class="stat-num">Open</div>
+                <div class="stat-label">for Internship</div>
               </div>
               <div class="stat-item">
-                <div class="stat-num">3+</div>
-                <div class="stat-label">Tech Projects</div>
+                <div class="stat-num">3</div>
+                <div class="stat-label">Projects</div>
               </div>
               <div class="stat-item">
-                <div class="stat-num">3.5+</div>
-                <div class="stat-label">GPA Track</div>
+                <div class="stat-num">BIT</div>
+                <div class="stat-label">Student</div>
               </div>
             </div>
           </div>
@@ -160,156 +123,43 @@
       </div>
     </section>
 
-    <!-- 3. SKILLS SECTION -->
     <section class="section" id="skills">
       <div class="container">
-        <div class="section-header reveal">
+        <div class="section-header">
           <h2 class="section-title">My <span class="text-gradient">Skills</span></h2>
-          <p class="section-subtitle">Technologies, languages, and tools I have experience working with</p>
+          <p class="section-subtitle">Technologies and tools I have worked with</p>
         </div>
-        
+
         <div class="skills-grid">
-          
-          <!-- Java -->
-          <div class="skill-card reveal reveal-delay-1">
-            <div class="skill-icon-wrapper">
-              <svg class="skill-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6 18.571s.429.286 1.714.286c1.286 0 1.286-.857 2.143-.857.857 0 .857.571 1.714.571s1.714-1.143 1.714-1.143M3.429 20.857s.857.571 2.571.571 2.571-1.714 4.286-1.714c1.714 0 1.714 1.143 3.429 1.143s3.429-1.714 3.429-1.714M7.714 14.286S9.429 16 12 16s4.286-2.571 6-2.571M19.714 10a12.86 12.86 0 0 1-5.143 1.714C12.857 12 12.857 10 11.143 10c-1.714 0-1.714.857-3 .857A5.36 5.36 0 0 1 6 10.286m6.857-4s-.857-1.143-2.143-.286c-1.286.857-.429 2 .857 1.429 1.286-.571 1.286-1.143 1.286-1.143zM16.286.857c.429.857-.857 1.714-1.714 1.143-.857-.571-.429-1.714.857-1.714a1.28 1.28 0 0 1 .857.571z"/>
-              </svg>
-            </div>
-            <h3 class="skill-title">Java</h3>
-          </div>
-          
-          <!-- Python -->
-          <div class="skill-card reveal reveal-delay-2">
-            <div class="skill-icon-wrapper">
-              <svg class="skill-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2C6.48 2 2 6.48 2 12c0 4.14 2.52 7.7 6.1 9.25.1.04.2-.02.2-.13v-1.92c-1.63-.3-2.67-1-3.13-2.16-.46-1.16-.2-2.3.8-3 .75-.5 1.78-.73 2.92-.66.1-.8 1-2.45 2.1-2.95 1.1-.5 2.2-.3 3 0 .8.3 1.45.92 1.8 1.8.35-.35.9-.6 1.5-.72.1-.85-.12-1.85-.68-2.62a12.44 12.44 0 0 0-3.32-3.13C13.43 2.05 12.72 2 12 2zm0 2.2c.4 0 .8.04 1.18.12a10.3 10.3 0 0 1 2.87 2.6c.45.62.63 1.4.52 2.1-.06.4-.24.76-.52 1.05-.33.36-.78.58-1.28.66a2.2 2.2 0 0 1-.94-.06 2.2 2.2 0 0 1-1.32-1.42 2.17 2.17 0 0 1-.16-1.1c.1-.47.3-.9.6-1.23.3-.34.68-.58 1.12-.7a2.2 2.2 0 0 1-.07 4.38v.02c.04.14.07.28.07.43v.23a2.2 2.2 0 0 1-2.13 2.2H11a2.2 2.2 0 0 1-2.2-2.2v-.23a2.2 2.2 0 0 1 .53-1.44c.45-.55.76-1.2 1.07-1.8.3-.6.64-1.2 1.07-1.8.37-.52.92-.86 1.53-.86z"/>
-              </svg>
-            </div>
-            <h3 class="skill-title">Python</h3>
-          </div>
-          
-          <!-- HTML -->
-          <div class="skill-card reveal reveal-delay-3">
-            <div class="skill-icon-wrapper">
-              <svg class="skill-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1.5 0h21l-1.91 21.563L12 24l-8.59-2.437zM18.9 5.1H5.1l.35 4h12.75zm-12.05 6h7.7l-.3 3.45L12 15.22l-2.25-.67-.15-1.65H5.8l.25 3.3L12 18.5l5.95-2.3.8-9.1H5l-.1-1h14.15z"/>
-              </svg>
-            </div>
-            <h3 class="skill-title">HTML</h3>
-          </div>
-          
-          <!-- CSS -->
-          <div class="skill-card reveal reveal-delay-4">
-            <div class="skill-icon-wrapper">
-              <svg class="skill-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1.5 0h21l-1.91 21.563L12 24l-8.59-2.437zM12 18.5l5.95-2.3.8-9.1H12v11.4zm0-13.4H5.1l.35 4H12V5.1zm0 6H5.8l.15 1.65 2.25.67L12 12.75v-1.65z"/>
-              </svg>
-            </div>
-            <h3 class="skill-title">CSS</h3>
-          </div>
-          
-          <!-- JavaScript -->
-          <div class="skill-card reveal reveal-delay-5">
-            <div class="skill-icon-wrapper">
-              <svg class="skill-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 0h24v24H0zM22 22h-3.66c-.34 0-.6-.1-.82-.3-.23-.22-.35-.57-.35-1.07 0-.58.18-1 .54-1.25.36-.26.96-.38 1.8-.38H22v3M15.42 16.5c.34-.23.75-.35 1.22-.35s.84.1 1.13.3.3.48.3.83v2.88c0 .24-.04.45-.13.62a1 1 0 0 1-.37.38c-.16.1-.38.14-.65.14h-1.5c-.32 0-.58-.08-.78-.23-.2-.15-.3-.43-.3-.83v-2.55c0-.36.08-.66.25-.88zM4.75 19.34c0 .35.12.63.35.84s.52.32.9.32h1.53c.33 0 .6-.1.82-.3.22-.22.33-.52.33-.92v-6.08h1.8v6.08c0 .87-.27 1.55-.83 2.05-.55.5-1.3.75-2.22.75h-1.9c-.93 0-1.68-.25-2.23-.75s-.83-1.2-.83-2.07v-.85h1.9v.84z"/>
-              </svg>
-            </div>
-            <h3 class="skill-title">JavaScript</h3>
-          </div>
-          
-          <!-- JSP -->
-          <div class="skill-card reveal reveal-delay-1">
-            <div class="skill-icon-wrapper">
-              <svg class="skill-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/>
-              </svg>
-            </div>
-            <h3 class="skill-title">JSP</h3>
-          </div>
-          
-          <!-- Servlets -->
-          <div class="skill-card reveal reveal-delay-2">
-            <div class="skill-icon-wrapper">
-              <svg class="skill-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 4h16V6H4v2zm0 4h16v-2H4v2zm0 4h16v-2H4v2z"/>
-              </svg>
-            </div>
-            <h3 class="skill-title">Servlets</h3>
-          </div>
-          
-          <!-- JDBC -->
-          <div class="skill-card reveal reveal-delay-3">
-            <div class="skill-icon-wrapper">
-              <svg class="skill-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19 15v4H5v-4h14m1-2H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-6c0-.55-.45-1-1-1zM19 5v4H5V5h14m1-2H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1z"/>
-              </svg>
-            </div>
-            <h3 class="skill-title">JDBC</h3>
-          </div>
-          
-          <!-- MySQL -->
-          <div class="skill-card reveal reveal-delay-4">
-            <div class="skill-icon-wrapper">
-              <svg class="skill-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2C6.48 2 2 4.02 2 6.5s4.48 4.5 10 4.5 10-2.02 10-4.5S17.52 2 12 2zm0 18c-5.52 0-10-2.02-10-4.5V18c0 2.48 4.48 4.5 10 4.5s10-2.02 10-4.5v-2.5c0 2.48-4.48 4.5-10 4.5zm0-6c-5.52 0-10-2.02-10-4.5v2.5c0 2.48 4.48 4.5 10 4.5s10-2.02 10-4.5v-2.5c0 2.48-4.48 4.5-10 4.5z"/>
-              </svg>
-            </div>
-            <h3 class="skill-title">MySQL</h3>
-          </div>
-          
-          <!-- Git -->
-          <div class="skill-card reveal reveal-delay-5">
-            <div class="skill-icon-wrapper">
-              <svg class="skill-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M23.384 11.41L12.59.616c-.78-.778-2.05-.778-2.83 0L7.69 2.68l3.722 3.72c.783-.26 1.685-.09 2.327.55.65.652.817 1.57.534 2.36l3.704 3.703c.792-.28 1.71-.116 2.363.535.782.783.782 2.05 0 2.834-.783.782-2.052.782-2.834 0-.655-.655-.82-1.58-.53-2.373L13.336 9.9c-.28.286-.683.472-1.12.49v6.52c.312.13.585.344.78.618.784.782.784 2.05 0 2.833-.782.783-2.05.783-2.833 0-.783-.783-.783-2.05 0-2.833.2-.2.44-.342.7-.442V10.37c-.26-.1-.5-.24-.7-.442-.647-.65-.815-1.57-.54-2.355L5.918 3.864 1.396 8.387c-.777.78-.777 2.05 0 2.832L12.19 22.012c.78.78 2.05.78 2.83 0l8.365-8.364c.78-.783.78-2.05 0-2.832v-.004z"/>
-              </svg>
-            </div>
-            <h3 class="skill-title">Git</h3>
-          </div>
-          
-          <!-- GitHub -->
-          <div class="skill-card reveal reveal-delay-1">
-            <div class="skill-icon-wrapper">
-              <svg class="skill-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-              </svg>
-            </div>
-            <h3 class="skill-title">GitHub</h3>
-          </div>
-          
-          <!-- VS Code -->
-          <div class="skill-card reveal reveal-delay-2">
-            <div class="skill-icon-wrapper">
-              <svg class="skill-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M23.985 6.804l-2.072-1.99a.86.86 0 0 0-.613-.255.88.88 0 0 0-.606.27l-6.84 6.84a.43.43 0 0 1-.606 0L5.32 3.737a.89.89 0 0 0-.613-.263.87.87 0 0 0-.606.27L.266 7.478A.84.84 0 0 0 0 8.09c0 .247.098.48.274.659l5.05 5.052a.43.43 0 0 1 0 .606l-5.05 5.053a.92.92 0 0 0-.274.66c0 .246.097.48.274.658l3.722 3.723a.85.85 0 0 0 .614.254c.232 0 .45-.09.605-.254l7.928-7.93a.43.43 0 0 1 .606 0l7.928 7.93a.85.85 0 0 0 .605.254.87.87 0 0 0 .614-.254l3.722-3.723A.92.92 0 0 0 24 19.518c0-.247-.098-.48-.274-.66l-5.05-5.052a.43.43 0 0 1 0-.606l5.05-5.053a.92.92 0 0 0 .274-.659c0-.246-.098-.48-.274-.658z"/>
-              </svg>
-            </div>
-            <h3 class="skill-title">VS Code</h3>
-          </div>
-          
+          <div class="skill-card"><div class="skill-icon-wrapper">☕</div><h3>Java</h3></div>
+          <div class="skill-card"><div class="skill-icon-wrapper">🐍</div><h3>Python</h3></div>
+          <div class="skill-card"><div class="skill-icon-wrapper">🌐</div><h3>HTML</h3></div>
+          <div class="skill-card"><div class="skill-icon-wrapper">🎨</div><h3>CSS</h3></div>
+          <div class="skill-card"><div class="skill-icon-wrapper">⚡</div><h3>JavaScript</h3></div>
+          <div class="skill-card"><div class="skill-icon-wrapper">🗄️</div><h3>MySQL</h3></div>
+          <div class="skill-card"><div class="skill-icon-wrapper">🌿</div><h3>Git</h3></div>
+          <div class="skill-card"><div class="skill-icon-wrapper">🐙</div><h3>GitHub</h3></div>
+          <div class="skill-card"><div class="skill-icon-wrapper">💻</div><h3>VS Code</h3></div>
+          <div class="skill-card"><div class="skill-icon-wrapper">🌙</div><h3>Eclipse IDE</h3></div>
+          <div class="skill-card"><div class="skill-icon-wrapper">📓</div><h3>Jupyter Notebook</h3></div>
+</div>
+</div>
         </div>
       </div>
     </section>
 
-    <!-- 4. PROJECTS SECTION -->
     <section class="section" id="projects">
       <div class="container">
-        <div class="section-header reveal">
+        <div class="section-header">
           <h2 class="section-title">My <span class="text-gradient">Projects</span></h2>
-          <p class="section-subtitle">A showcase of software and web projects I have developed</p>
+          <p class="section-subtitle">Real projects I have built while learning and practicing</p>
         </div>
-        
+
         <div class="projects-grid">
-          
-          <!-- Project 1 -->
-          <div class="project-card reveal reveal-delay-1">
-            <div class="project-header">
-              <span class="project-header-icon" aria-hidden="true">🎯</span>
-            </div>
+          <div class="project-card">
             <div class="project-body">
+              <h3 class="project-title">Student Skill Tracker</h3>
+
               <div class="project-tech">
                 <span class="tech-tag">Java</span>
                 <span class="tech-tag">JSP</span>
@@ -317,220 +167,160 @@
                 <span class="tech-tag">JDBC</span>
                 <span class="tech-tag">MySQL</span>
               </div>
-              <h3 class="project-title">Student Skill Tracker</h3>
+
               <p class="project-desc">
-                A Java web application for managing and tracking students' skills, proficiency levels, and learning progress. Provides structural database CRUD operations for academic record tracking.
+                A Java web application that helps manage students' skills, proficiency levels, and learning progress.
               </p>
+
               <div class="project-links">
-                <a href="https://github.com/ManyataDhakal" target="_blank" class="project-btn" id="p1CodeLink">
-                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-                  View Code
-                </a>
+                <a href="https://github.com/ManyataDhakal/student-skill-tracker" target="_blank" class="project-btn">GitHub</a>
               </div>
             </div>
           </div>
-          
-          <!-- Project 2 -->
-          <div class="project-card reveal reveal-delay-2">
-            <div class="project-header">
-              <span class="project-header-icon" aria-hidden="true">📝</span>
-            </div>
+
+          <div class="project-card">
             <div class="project-body">
-              <div class="project-tech">
-                <span class="tech-tag">HTML</span>
-                <span class="tech-tag">CSS</span>
-                <span class="tech-tag">JavaScript</span>
-              </div>
               <h3 class="project-title">Tech Learner Survey Form</h3>
-              <p class="project-desc">
-                A responsive survey form designed to collect users' technology interests and learning preferences. Built with clean, accessible form components and client-side validation logic.
-              </p>
-              <div class="project-links">
-                <a href="https://github.com/ManyataDhakal" target="_blank" class="project-btn" id="p2CodeLink">
-                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-                  View Code
-                </a>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Project 3 -->
-          <div class="project-card reveal reveal-delay-3">
-            <div class="project-header">
-              <span class="project-header-icon" aria-hidden="true">💼</span>
-            </div>
-            <div class="project-body">
+
               <div class="project-tech">
                 <span class="tech-tag">HTML</span>
                 <span class="tech-tag">CSS</span>
                 <span class="tech-tag">JavaScript</span>
               </div>
-              <h3 class="project-title">Personal Portfolio Website</h3>
+
               <p class="project-desc">
-                A personal portfolio website showcasing my skills, projects, and contact information. Engineered with premium custom animations, clean scrolling interactions, and a dark visual design.
+                A responsive survey form built using HTML, CSS, and JavaScript to collect users' learning interests.
               </p>
+
               <div class="project-links">
-                <a href="https://github.com/ManyataDhakal" target="_blank" class="project-btn" id="p3CodeLink">
-                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-                  View Code
-                </a>
+                <a href="https://tech-learner-survey-form.manyatadhakal12.workers.dev/" target="_blank" class="project-btn">Live Demo</a>
+                <a href="https://github.com/ManyataDhakal/tech-learner-survey-form" target="_blank" class="project-btn">GitHub</a>
               </div>
             </div>
           </div>
-          
+
+          <div class="project-card">
+  <div class="project-body">
+    <h3 class="project-title">City Skyline</h3>
+
+    <div class="project-tech">
+      <span class="tech-tag">HTML</span>
+      <span class="tech-tag">CSS</span>
+    </div>
+
+    <p class="project-desc">
+      A simple city skyline design created using HTML and CSS to practice layout and styling.
+    </p>
+
+    <div class="project-links">
+      <a href="https://skyline-serenity.manyatadhakal12.workers.dev" target="_blank" class="project-btn">Live Demo</a>
+      <a href="https://github.com/ManyataDhakal/skyline-serenity" target="_blank" class="project-btn">GitHub</a>
+                    </div>
+                  </div>
+             </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- 5. EDUCATION SECTION -->
     <section class="section" id="education">
       <div class="container">
-        <div class="section-header reveal">
+        <div class="section-header">
           <h2 class="section-title">My <span class="text-gradient">Education</span></h2>
-          <p class="section-subtitle">Academic background and continuous learning path</p>
+          <p class="section-subtitle">My academic background</p>
         </div>
-        
-        <div class="education-timeline">
-          
-          <!-- Timeline Item -->
-          <div class="timeline-item reveal">
-            <div class="timeline-dot" aria-hidden="true"></div>
-            <div class="timeline-card">
-              <div class="timeline-header">
-                <span class="timeline-period">Ongoing</span>
-                <h3 class="timeline-title">Bachelor of Information Technology (BIT)</h3>
-              </div>
-              <div class="timeline-org">London Metropolitan University</div>
-              <p class="timeline-desc">
-                Currently pursuing undergraduate degree focusing on core information technology components, object-oriented concepts, system modeling, relational databases, data structures, and foundational internet architecture.
-              </p>
-            </div>
-          </div>
-          
+
+        <div class="timeline-card">
+          <span class="timeline-period">2024 - Present</span>
+          <h3 class="timeline-title">Bachelor of Information Technology (BIT)</h3>
+          <div class="timeline-org">Informatics College Pokhara <br>(Affiliated with London Metropolitan University)</div>
+          <p class="timeline-desc">
+            Currently studying BIT and learning Java, Python, HTML, CSS, JavaScript, and MySQL through academic projects.
+          </p>
         </div>
       </div>
     </section>
 
-    <!-- 6. CONTACT SECTION -->
     <section class="section" id="contact">
       <div class="container">
-        <div class="section-header reveal">
-          <h2 class="section-title">Get In <span class="text-gradient">Touch</span></h2>
-          <p class="section-subtitle">Feel free to connect or drop a message. I'm always open to discussing internship opportunities!</p>
+        <div class="section-header">
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="section-subtitle">Feel free to get in touch.</p>
         </div>
-        
+
         <div class="contact-grid">
-          <!-- Social Cards -->
-          <div class="contact-info reveal">
-            
-            <!-- Email -->
-            <a href="mailto:manyatadhakal12@gmail.com" class="contact-card" id="emailContactCard">
-              <div class="contact-icon-wrapper">
-                <svg class="contact-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-                </svg>
-              </div>
+          <div class="contact-info">
+            <a href="mailto:manyatadhakal12@gmail.com" class="contact-card">
+              <div class="contact-icon-wrapper">📧</div>
               <div class="contact-details">
                 <h4>Email</h4>
-                <p>manyatadhakal12@gmail.com</p>
+                <a href="mailto:manyatadhakal12@gmail.com">manyatadhakal12@gmail.com</a>
               </div>
             </a>
-            
-            <!-- GitHub -->
-            <a href="https://github.com/ManyataDhakal" target="_blank" class="contact-card" id="githubContactCard">
-              <div class="contact-icon-wrapper">
-                <svg class="contact-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-                </svg>
-              </div>
+
+            <a href="https://github.com/ManyataDhakal" target="_blank" class="contact-card">
+              <div class="contact-icon-wrapper">🐙</div>
               <div class="contact-details">
                 <h4>GitHub</h4>
-                <p>github.com/ManyataDhakal</p>
+                <a href="https://github.com/ManyataDhakal" target="_blank">github.com/ManyataDhakal</a>
               </div>
             </a>
-            
-            <!-- LinkedIn -->
-            <a href="https://linkedin.com" target="_blank" class="contact-card" id="linkedinContactCard">
-              <div class="contact-icon-wrapper">
-                <svg class="contact-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                </svg>
-              </div>
+
+            <a href="https://www.linkedin.com/in/manyata-dhakal-77535a362/" target="_blank" class="contact-card">
+              <div class="contact-icon-wrapper">💼</div>
               <div class="contact-details">
                 <h4>LinkedIn</h4>
-                <p>LinkedIn Profile</p>
+                <a href="https://www.linkedin.com/in/manyata-dhakal-77535a362/" target="_blank">linkedin.com/in/manyata-dhakal-77535a362/</a>
               </div>
             </a>
-            
           </div>
-          
-          <!-- Contact Form -->
-          <div class="contact-form-card reveal">
+
+          <div class="contact-form-card">
             <h3 class="contact-form-title">Send a Message</h3>
-            <form id="contactForm" autocomplete="on">
+
+            <form id="contactForm">
               <div class="form-group">
                 <label for="formName" class="form-label">Name</label>
                 <input type="text" id="formName" class="form-input" placeholder="Your Name" required>
               </div>
+
               <div class="form-group">
                 <label for="formEmail" class="form-label">Email</label>
                 <input type="email" id="formEmail" class="form-input" placeholder="name@example.com" required>
               </div>
+
               <div class="form-group">
                 <label for="formMessage" class="form-label">Message</label>
-                <textarea id="formMessage" class="form-input" placeholder="Hello, I'd like to talk about..." required></textarea>
+                <textarea id="formMessage" class="form-input" placeholder="Write your message..." required></textarea>
               </div>
-              <button type="submit" class="btn btn-primary form-submit-btn" id="formSubmitBtn">Send Message</button>
+
+              <button type="submit" class="btn btn-primary form-submit-btn">Send Message</button>
             </form>
           </div>
         </div>
       </div>
     </section>
-
   </main>
 
-  <!-- ==========================================
-       SCROLL TO TOP BUTTON
-       ========================================== -->
-  <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top of the page">
-    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-      <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
-    </svg>
-  </button>
+  <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">↑</button>
 
-  <!-- ==========================================
-       FOOTER
-       ========================================== -->
-  <footer class="site-footer" id="siteFooter">
+  <footer class="site-footer">
     <div class="container">
-      <a href="#hero" class="footer-logo" id="footerLogo">
-        Manyata Dhakal<span></span>
-      </a>
-      <p class="footer-subtitle">Computer Science Student | Aspiring Software Developer</p>
-      
+      <a href="#hero" class="footer-logo">Manyata Dhakal</a>
+      <p class="footer-subtitle">Aspiring Software Developer</p>
+
       <div class="footer-socials">
-        <!-- GitHub -->
-        <a href="https://github.com/ManyataDhakal" target="_blank" aria-label="GitHub Profile" id="footerSocialGithub">
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-        </a>
-        <!-- LinkedIn -->
-        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn Profile" id="footerSocialLinkedin">
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-        </a>
-        <!-- Email -->
-        <a href="mailto:manyatadhakal12@gmail.com" aria-label="Send Email" id="footerSocialEmail">
-          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-        </a>
+        <a href="https://github.com/ManyataDhakal" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/manyata-dhakal-77535a362/" target="_blank">LinkedIn</a>
+        <a href="mailto:manyatadhakal12@gmail.com">Email</a>
       </div>
-      
-      <p class="footer-copy">&copy; <span id="currentYear">2026</span> Manyata Dhakal. All Rights Reserved.</p>
+
+      <p class="footer-copy">&copy; <span id="currentYear"></span> Manyata Dhakal. All rights reserved.</p>
     </div>
   </footer>
-
-  <!-- Scripts -->
-  <script src="script.js"></script>
+<script src="script.js"></script>
   <script>
-    // Dynamically set current footer copyright year
     document.getElementById("currentYear").textContent = new Date().getFullYear();
   </script>
 </body>
