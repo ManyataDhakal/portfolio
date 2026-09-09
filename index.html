@@ -1,326 +1,466 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Manyata Dhakal | Aspiring Software Developer</title>
-  <meta name="description" content="Portfolio of Manyata Dhakal, an aspiring software developer interested in Java, Python, web development, and databases.">
-  <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manyata Dhakal | Aspiring Software Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Manyata Dhakal, an aspiring software developer interested in Java, Python, web development, and databases."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-  <header class="header-nav">
-    <div class="container nav-container">
-      <a href="#hero" class="logo">Manyata Dhakal</a>
+  <body>
+    <header class="header-nav">
+      <div class="container nav-container">
+        <a href="#hero" class="logo">Manyata Dhakal</a>
 
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-        <span></span><span></span><span></span>
-      </button>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle navigation"
+        >
+          <span></span><span></span><span></span>
+        </button>
 
-      <nav>
-        <ul class="nav-links" id="navLinks">
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero-section" id="hero">
-      <div class="container hero-grid">
-        <div class="hero-content">
-          <div class="hero-tagline">Hello, I'm</div>
-          <h1 class="hero-name">Manyata Dhakal</h1>
-
-          <div class="hero-title">
-            I am an <span id="typingText" class="text-gradient"></span><span class="typing-cursor">|</span>
-          </div>
-
-          <p class="hero-desc">
-            Aspiring Software Developer passionate about learning new technologies and building practical projects.
-          </p>
-
-          <div class="hero-buttons">
-            <a href="#projects" class="btn btn-primary">View Projects</a>
-            <a href="#contact" class="btn btn-outline">Contact Me</a>
-          </div>
-        </div>
-
-        <div class="hero-graphic">
-          <div class="hero-image">
-            <img src="images/profile.jpeg" alt="Manyata Dhakal">
-          </div>
-        </div>
+        <nav>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <section class="section" id="about">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">About <span class="text-gradient">Me</span></h2>
-          <p class="section-subtitle">A short introduction about my learning journey and interests</p>
-        </div>
+    <main>
+      <section class="hero-section" id="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <div class="hero-tagline">Hello, I'm</div>
+            <h1 class="hero-name">Manyata Dhakal</h1>
 
-        <div class="about-grid">
-          <div class="about-card">
-            <div class="about-fact-item">
-              <div class="about-fact-icon">🎓</div>
-              <div>
-                <h3 class="about-fact-title">Current Study</h3>
-                <p class="about-fact-desc">BIT Undergraduate</p>
-              </div>
+            <div class="hero-title">
+              I am a <span id="typingText" class="text-gradient"></span
+              ><span class="typing-cursor">|</span>
             </div>
 
-            <div class="about-fact-item">
-              <div class="about-fact-icon">💡</div>
-              <div>
-                <h3 class="about-fact-title">Focus Areas</h3>
-                <p class="about-fact-desc">Java, Python, Web Development, Database</p>
-              </div>
-            </div>
-
-            <div class="about-fact-item">
-              <div class="about-fact-icon">🌱</div>
-              <div>
-                <h3 class="about-fact-title">Learning Goal</h3>
-                <p class="about-fact-desc">Building projects and improving my programming skills</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="about-info">
-            <p class="about-text">
-              I am a BIT student with a strong interest in software development and problem-solving.
-              I enjoy creating practical projects and applying what I learn through hands-on practice.
+            <p class="hero-desc">
+              BIT student focused on frontend and web development, with hands-on
+              experience in React, JavaScript, REST APIs, Java, and MySQL.
+              Currently seeking an internship to apply my skills and grow
+              through real-world development.
             </p>
 
-            <p class="about-text">
-              I am currently looking for internship opportunities where I can learn from real-world experience,
-              improve my technical skills, and contribute to meaningful projects.
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="hero-graphic">
+            <div class="hero-image">
+              <img src="images/profile.jpeg" alt="Manyata Dhakal" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">
+              About <span class="text-gradient">Me</span>
+            </h2>
+            <p class="section-subtitle">
+              A short introduction about my learning journey and interests
             </p>
+          </div>
 
-            <div class="about-stats">
-              <div class="stat-item">
-                <div class="stat-num">Open</div>
-                <div class="stat-label">for Internship</div>
+          <div class="about-grid">
+            <div class="about-card">
+              <div class="about-fact-item">
+                <div class="about-fact-icon">🎓</div>
+                <div>
+                  <h3 class="about-fact-title">Current Study</h3>
+                  <p class="about-fact-desc">BIT Undergraduate</p>
+                </div>
               </div>
-              <div class="stat-item">
-                <div class="stat-num">3</div>
-                <div class="stat-label">Projects</div>
+
+              <div class="about-fact-item">
+                <div class="about-fact-icon">💡</div>
+                <div>
+                  <h3 class="about-fact-title">Focus Areas</h3>
+                  <p class="about-fact-desc">
+                    Java, Python, Web Development, Database
+                  </p>
+                </div>
               </div>
-              <div class="stat-item">
-                <div class="stat-num">BIT</div>
-                <div class="stat-label">Student</div>
+
+              <div class="about-fact-item">
+                <div class="about-fact-icon">🌱</div>
+                <div>
+                  <h3 class="about-fact-title">Learning Goal</h3>
+                  <p class="about-fact-desc">
+                    Building projects and improving my programming skills
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="section" id="skills">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">My <span class="text-gradient">Skills</span></h2>
-          <p class="section-subtitle">Technologies and tools I have worked with</p>
-        </div>
-
-        <div class="skills-grid">
-          <div class="skill-card"><div class="skill-icon-wrapper">☕</div><h3>Java</h3></div>
-          <div class="skill-card"><div class="skill-icon-wrapper">🐍</div><h3>Python</h3></div>
-          <div class="skill-card"><div class="skill-icon-wrapper">🌐</div><h3>HTML</h3></div>
-          <div class="skill-card"><div class="skill-icon-wrapper">🎨</div><h3>CSS</h3></div>
-          <div class="skill-card"><div class="skill-icon-wrapper">⚡</div><h3>JavaScript</h3></div>
-          <div class="skill-card"><div class="skill-icon-wrapper">🗄️</div><h3>MySQL</h3></div>
-          <div class="skill-card"><div class="skill-icon-wrapper">🌿</div><h3>Git</h3></div>
-          <div class="skill-card"><div class="skill-icon-wrapper">🐙</div><h3>GitHub</h3></div>
-          <div class="skill-card"><div class="skill-icon-wrapper">💻</div><h3>VS Code</h3></div>
-          <div class="skill-card"><div class="skill-icon-wrapper">🌙</div><h3>Eclipse IDE</h3></div>
-          <div class="skill-card"><div class="skill-icon-wrapper">📓</div><h3>Jupyter Notebook</h3></div>
-</div>
-</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="projects">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">My <span class="text-gradient">Projects</span></h2>
-          <p class="section-subtitle">Real projects I have built while learning and practicing</p>
-        </div>
-
-        <div class="projects-grid">
-          <div class="project-card">
-            <div class="project-body">
-              <h3 class="project-title">Student Skill Tracker</h3>
-
-              <div class="project-tech">
-                <span class="tech-tag">Java</span>
-                <span class="tech-tag">JSP</span>
-                <span class="tech-tag">Servlets</span>
-                <span class="tech-tag">JDBC</span>
-                <span class="tech-tag">MySQL</span>
-              </div>
-
-              <p class="project-desc">
-                A Java web application that helps manage students' skills, proficiency levels, and learning progress.
+            <div class="about-info">
+              <p class="about-text">
+                I am a BIT student with a strong interest in software
+                development and problem-solving. I enjoy creating practical
+                projects and applying what I learn through hands-on practice.
               </p>
 
-              <div class="project-links">
-                <a href="https://github.com/ManyataDhakal/student-skill-tracker" target="_blank" class="project-btn">GitHub</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-body">
-              <h3 class="project-title">Tech Learner Survey Form</h3>
-
-              <div class="project-tech">
-                <span class="tech-tag">HTML</span>
-                <span class="tech-tag">CSS</span>
-                <span class="tech-tag">JavaScript</span>
-              </div>
-
-              <p class="project-desc">
-                A responsive survey form built using HTML, CSS, and JavaScript to collect users' learning interests.
+              <p class="about-text">
+                I am currently looking for internship opportunities where I can
+                learn from real-world experience, improve my technical skills,
+                and contribute to meaningful projects.
               </p>
 
-              <div class="project-links">
-                <a href="https://tech-learner-survey-form.manyatadhakal12.workers.dev/" target="_blank" class="project-btn">Live Demo</a>
-                <a href="https://github.com/ManyataDhakal/tech-learner-survey-form" target="_blank" class="project-btn">GitHub</a>
+              <div class="about-stats">
+                <div class="stat-item">
+                  <div class="stat-num">Open</div>
+                  <div class="stat-label">for Internship</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-num">3</div>
+                  <div class="stat-label">Projects</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-num">BIT</div>
+                  <div class="stat-label">Student</div>
+                </div>
               </div>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div class="project-card">
-  <div class="project-body">
-    <h3 class="project-title">City Skyline</h3>
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">
+              My <span class="text-gradient">Skills</span>
+            </h2>
+            <p class="section-subtitle">
+              Technologies and tools I have worked with
+            </p>
+          </div>
 
-    <div class="project-tech">
-      <span class="tech-tag">HTML</span>
-      <span class="tech-tag">CSS</span>
-    </div>
-
-    <p class="project-desc">
-      A simple city skyline design created using HTML and CSS to practice layout and styling.
-    </p>
-
-    <div class="project-links">
-      <a href="https://skyline-serenity.manyatadhakal12.workers.dev" target="_blank" class="project-btn">Live Demo</a>
-      <a href="https://github.com/ManyataDhakal/skyline-serenity" target="_blank" class="project-btn">GitHub</a>
-                  </div>
-                  </div>
-             </div>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon-wrapper">☕</div>
+              <h3>Java</h3>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon-wrapper">🐍</div>
+              <h3>Python</h3>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon-wrapper">🌐</div>
+              <h3>HTML</h3>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon-wrapper">🎨</div>
+              <h3>CSS</h3>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon-wrapper">⚡</div>
+              <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon-wrapper">🗄️</div>
+              <h3>MySQL</h3>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon-wrapper">🌿</div>
+              <h3>Git</h3>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon-wrapper">🐙</div>
+              <h3>GitHub</h3>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon-wrapper">💻</div>
+              <h3>VS Code</h3>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon-wrapper">⚛️</div>
+              <h3>React.js</h3>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon-wrapper">🔄</div>
+              <h3>Redux</h3>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon-wrapper">🔗</div>
+              <h3>REST API</h3>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section" id="education">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">My <span class="text-gradient">Education</span></h2>
-          <p class="section-subtitle">My academic background</p>
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">
+              My <span class="text-gradient">Projects</span>
+            </h2>
+            <p class="section-subtitle">
+              Real projects I have built while learning and practicing
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <!-- MiniStore-->
+            <div class="project-card">
+              <div class="project-body">
+                <h3 class="project-title">MiniStore</h3>
+
+                <div class="project-tech">
+                  <span class="tech-tag">React.js</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Redux</span>
+                  <span class="tech-tag">REST API</span>
+                </div>
+
+                <p class="project-desc">
+                  A React product store with product browsing, search,
+                  filtering, product details, and shopping cart functionality.
+                </p>
+
+                <div class="project-links">
+                  <a
+                    href="https://mini-product-store-one.vercel.app/"
+                    target="_blank"
+                    class="project-btn"
+                    >Live Demo</a
+                  >
+                  <a
+                    href="https://github.com/ManyataDhakal/mini-product-store.git"
+                    target="_blank"
+                    class="project-btn"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- BiteGo-->
+            <div class="project-card">
+              <div class="project-body">
+                <h3 class="project-title">BiteGo</h3>
+
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+
+                <p class="project-desc">
+                  A responsive food delivery website with dynamic product
+                  loading, shopping cart functionality, quantity controls, and
+                  automatic total calculation.
+                </p>
+
+                <div class="project-links">
+                  <a
+                    href="https://foodie-delivery-one.vercel.app/"
+                    target="_blank"
+                    class="project-btn"
+                    >Live Demo</a
+                  >
+                  <a
+                    href="https://github.com/ManyataDhakal/foodie-delivery.git"
+                    target="_blank"
+                    class="project-btn"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-body">
+                <h3 class="project-title">Student Skill Tracker</h3>
+
+                <div class="project-tech">
+                  <span class="tech-tag">Java</span>
+                  <span class="tech-tag">JSP</span>
+                  <span class="tech-tag">Servlets</span>
+                  <span class="tech-tag">JDBC</span>
+                  <span class="tech-tag">MySQL</span>
+                </div>
+
+                <p class="project-desc">
+                  A Java web application for managing students, skills,
+                  categories, skill assignments, progress tracking, and reports.
+                </p>
+
+                <div class="project-links">
+                  <a
+                    href="https://github.com/ManyataDhakal/student-skill-tracker.git"
+                    target="_blank"
+                    class="project-btn"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="timeline-card">
-          <span class="timeline-period">2024 - Present</span>
-          <h3 class="timeline-title">Bachelor of Information Technology (BIT)</h3>
-          <div class="timeline-org">Informatics College Pokhara <br>(Affiliated with London Metropolitan University)</div>
-          <p class="timeline-desc">
-            Currently studying BIT and learning Java, Python, HTML, CSS, JavaScript, and MySQL through academic projects.
-          </p>
+      <section class="section" id="education">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">
+              My <span class="text-gradient">Education</span>
+            </h2>
+            <p class="section-subtitle">My academic background</p>
+          </div>
+
+          <div class="timeline-card">
+            <span class="timeline-period">2024 - Present</span>
+            <h3 class="timeline-title">
+              Bachelor of Information Technology (BIT)
+            </h3>
+            <div class="timeline-org">
+              Informatics College Pokhara <br />(Affiliated with London
+              Metropolitan University)
+            </div>
+            <p class="timeline-desc">
+              Currently studying BIT and learning Java, Python, HTML, CSS,
+              JavaScript, and MySQL through academic projects.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section" id="contact">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Get in Touch</h2>
-          <p class="section-subtitle">Feel free to get in touch.</p>
-        </div>
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Feel free to get in touch.</p>
+          </div>
 
-        <div class="contact-grid">
-          <div class="contact-info">
-            <a href="mailto:manyatadhakal12@gmail.com" class="contact-card">
-             <div class="contact-icon-wrapper">📧</div>
-             <div class="contact-details">
-                <h4>Email</h4>
-                 <p>manyatadhakal12@gmail.com</p>
-             </div>
-             </a>
+          <div class="contact-grid">
+            <div class="contact-info">
+              <a href="mailto:manyatadhakal12@gmail.com" class="contact-card">
+                <div class="contact-icon-wrapper">📧</div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <p>manyatadhakal12@gmail.com</p>
+                </div>
+              </a>
 
-             <a href="https://github.com/ManyataDhakal" target="_blank" class="contact-card">
+              <a
+                href="https://github.com/ManyataDhakal"
+                target="_blank"
+                class="contact-card"
+              >
                 <div class="contact-icon-wrapper">🐙</div>
                 <div class="contact-details">
-                   <h4>GitHub</h4>
-                    <p>github.com/ManyataDhakal</p>
-                  </div>
-                 </a>
-
-               <a href="https://www.linkedin.com/in/manyata-dhakal-77535a362/" target="_blank" class="contact-card">
-                  <div class="contact-icon-wrapper">💼</div>
-                  <div class="contact-details">
-                  <h4>LinkedIn</h4>
-                   <p>linkedin.com/in/manyata-dhakal-77535a362</p>
+                  <h4>GitHub</h4>
+                  <p>github.com/ManyataDhakal</p>
                 </div>
-               </a>
-              </div>
-          <div class="contact-form-card">
-            <h3 class="contact-form-title">Send a Message</h3>
+              </a>
 
-            <form id="contactForm">
-              <div class="form-group">
-                <label for="formName" class="form-label">Name</label>
-                <input type="text" id="formName" class="form-input" placeholder="Your Name" required>
-              </div>
+              <a
+                href="https://www.linkedin.com/in/manyata-dhakal-77535a362/"
+                target="_blank"
+                class="contact-card"
+              >
+                <div class="contact-icon-wrapper">💼</div>
+                <div class="contact-details">
+                  <h4>LinkedIn</h4>
+                  <p>linkedin.com/in/manyata-dhakal-77535a362</p>
+                </div>
+              </a>
+            </div>
+            <div class="contact-form-card">
+              <h3 class="contact-form-title">Send a Message</h3>
 
-              <div class="form-group">
-                <label for="formEmail" class="form-label">Email</label>
-                <input type="email" id="formEmail" class="form-input" placeholder="name@example.com" required>
-              </div>
+              <form id="contactForm">
+                <div class="form-group">
+                  <label for="formName" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    id="formName"
+                    class="form-input"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
 
-              <div class="form-group">
-                <label for="formMessage" class="form-label">Message</label>
-                <textarea id="formMessage" class="form-input" placeholder="Write your message..." required></textarea>
-              </div>
+                <div class="form-group">
+                  <label for="formEmail" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    id="formEmail"
+                    class="form-input"
+                    placeholder="name@example.com"
+                    required
+                  />
+                </div>
 
-              <button type="submit" class="btn btn-primary form-submit-btn">Send Message</button>
-            </form>
+                <div class="form-group">
+                  <label for="formMessage" class="form-label">Message</label>
+                  <textarea
+                    id="formMessage"
+                    class="form-input"
+                    placeholder="Write your message..."
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary form-submit-btn">
+                  Send Message
+                </button>
+              </form>
+            </div>
           </div>
         </div>
+      </section>
+    </main>
+
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+      ↑
+    </button>
+
+    <footer class="site-footer">
+      <div class="container">
+        <a href="#hero" class="footer-logo">Manyata Dhakal</a>
+        <p class="footer-subtitle">Aspiring Software Developer</p>
+
+        <div class="footer-socials">
+          <a href="https://github.com/ManyataDhakal" target="_blank">GitHub</a>
+          <a
+            href="https://www.linkedin.com/in/manyata-dhakal-77535a362/"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a href="mailto:manyatadhakal12@gmail.com">Email</a>
+        </div>
+
+        <p class="footer-copy">
+          &copy; <span id="currentYear"></span> Manyata Dhakal. All rights
+          reserved.
+        </p>
       </div>
-    </section>
-  </main>
-
-  <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">↑</button>
-
-  <footer class="site-footer">
-    <div class="container">
-      <a href="#hero" class="footer-logo">Manyata Dhakal</a>
-      <p class="footer-subtitle">Aspiring Software Developer</p>
-
-      <div class="footer-socials">
-        <a href="https://github.com/ManyataDhakal" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/manyata-dhakal-77535a362/" target="_blank">LinkedIn</a>
-        <a href="mailto:manyatadhakal12@gmail.com">Email</a>
-      </div>
-
-      <p class="footer-copy">&copy; <span id="currentYear"></span> Manyata Dhakal. All rights reserved.</p>
-    </div>
-  </footer>
-  <script src="script.js"></script>
-  <script>
-    document.getElementById("currentYear").textContent = new Date().getFullYear();
-  </script>
-</body>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
 </html>

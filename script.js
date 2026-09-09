@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Typing animation
 const words = [
-  "Aspiring Software Developer",
-  "BIT Undergraduate"
+  "Frontend Developer",
+  "BIT Student"
 ];
 
 let wordIndex = 0;
